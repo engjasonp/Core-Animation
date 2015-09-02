@@ -14,7 +14,22 @@ class ViewController: UIViewController {
     var currentAnimation = 0
     
     @IBOutlet weak var tap: UIButton!
-    @IBAction func tapped(sender: UIButton) {
+    @IBAction func tapped(sender: AnyObject) {
+        tap.hidden = true
+        
+        UIView.animateWithDuration(1, delay: 0, options: .allZeros,
+            animations: { [unowned self] in
+                switch self.currentAnimation {
+                case 0:
+                    break
+                    
+                default:
+                    break
+                }
+            }) { [unowned self] (finished: Bool) in
+                self.tap.hidden = false
+        }
+        
         ++currentAnimation
         
         if currentAnimation > 7 {

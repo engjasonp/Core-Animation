@@ -13,6 +13,8 @@
 		CA6D850D1B9681B900F5C256 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6D850C1B9681B900F5C256 /* Images.xcassets */; };
 		CA6D85101B9681B900F5C256 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA6D850E1B9681B900F5C256 /* LaunchScreen.xib */; };
 		CA6D851C1B9681B900F5C256 /* Core_AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6D851B1B9681B900F5C256 /* Core_AnimationTests.swift */; };
+		CA6D85281B9681DA00F5C256 /* penguin.png in Resources */ = {isa = PBXBuildFile; fileRef = CA6D85261B9681DA00F5C256 /* penguin.png */; };
+		CA6D85291B9681DA00F5C256 /* penguin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA6D85271B9681DA00F5C256 /* penguin@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		CA6D85151B9681B900F5C256 /* Core AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core AnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6D851A1B9681B900F5C256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA6D851B1B9681B900F5C256 /* Core_AnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core_AnimationTests.swift; sourceTree = "<group>"; };
+		CA6D85261B9681DA00F5C256 /* penguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penguin.png; sourceTree = "<group>"; };
+		CA6D85271B9681DA00F5C256 /* penguin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "penguin@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 		CA6D85031B9681B900F5C256 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CA6D85251B9681DA00F5C256 /* Content */,
 				CA6D85041B9681B900F5C256 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +115,15 @@
 				CA6D851A1B9681B900F5C256 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA6D85251B9681DA00F5C256 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA6D85261B9681DA00F5C256 /* penguin.png */,
+				CA6D85271B9681DA00F5C256 /* penguin@2x.png */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +206,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA6D85281B9681DA00F5C256 /* penguin.png in Resources */,
 				CA6D850B1B9681B900F5C256 /* Main.storyboard in Resources */,
 				CA6D85101B9681B900F5C256 /* LaunchScreen.xib in Resources */,
 				CA6D850D1B9681B900F5C256 /* Images.xcassets in Resources */,
+				CA6D85291B9681DA00F5C256 /* penguin@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

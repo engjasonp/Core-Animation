@@ -25,6 +25,9 @@
                                 <state key="normal" title="Tap">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="osK-JH-dq1"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -33,6 +36,9 @@
                             <constraint firstAttribute="centerX" secondItem="nrf-D4-xPw" secondAttribute="centerX" id="a9E-nb-Aom"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tap" destination="nrf-D4-xPw" id="ahb-gA-cfq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
